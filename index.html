@@ -1,0 +1,80 @@
+<div></DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .city {
+            background-color: tomato;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="city">
+         <h2> Addis Ababa</h2>
+        <h2> Addis Ababa is capital city of Ethiopia</h2></p>
+    </div>
+
+    <div class="city">
+        <h2>Moscow</h2>
+        <p>Moscow is the capital of Russia.</p>
+    </div>
+
+    <div class="city">
+        <h2>Seoul</h2>
+        <p>seoul is the capital of south Korea.</p>
+    </div>
+    <style>
+        .note {
+            font-size: 120%;
+            color: red;
+        }
+    </style>
+
+
+    <h1>My <span class="note">Important</span> Heading</h1>
+    <p>This is some <span class="note">important</span> text.</p>
+
+
+    <style>
+        .city {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 class="city">Addis Ababa</h2>
+    <p>Addis Ababa is the capital of Ethiopia.</p>
+
+    <h2 class="city">Moscow</h2>
+    <p> Moscow is the capital of Russia.</p>
+
+    <h2 class="city">Seoul</h2>
+    <p>Seoul is the capital of South Korea.</p>
+    <h2 class="city main">Addis Ababa</h2>
+<h2 class="city">Moscow</h2>
+<h2 class="city">Seoul</h2> <br>
+
+<h2 class="city">Moscow</h2>
+<p class="city">Moscow is the capital ofRussia</p>
+<button oneclick="myFunction{}">hide</button>
+<script>
+        function myFunction() {
+            var x = document.getElementsByClassName("city");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+</script>
+</body>
+
+</html>>
